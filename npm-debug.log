@@ -1,0 +1,879 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'i' ]
+2 info using npm@2.1.7
+3 info using node@v0.10.32
+4 verbose install where, deps [ '/Users/maddocnc/PhpstormProjects/bx_gulp_strap',
+4 verbose install   [ 'gulp',
+4 verbose install     'gulp-util',
+4 verbose install     'gulp-bower',
+4 verbose install     'gulp-concat',
+4 verbose install     'gulp-uglify',
+4 verbose install     'gulp-less',
+4 verbose install     'gulp-imagemin',
+4 verbose install     'gulp-nunjucks-render',
+4 verbose install     'gulp-newer',
+4 verbose install     'gulp-handlebars',
+4 verbose install     'gulp-declare',
+4 verbose install     'gulp-wrap',
+4 verbose install     'gulp-ftp',
+4 verbose install     'require-dir',
+4 verbose install     'browser-sync' ] ]
+5 verbose install where, peers [ '/Users/maddocnc/PhpstormProjects/bx_gulp_strap', [] ]
+6 info preinstall Gulpstrap@0.0.0
+7 silly cache add args [ 'gulp@latest', null ]
+8 verbose cache add spec gulp@latest
+9 silly cache add args [ 'gulp-util@latest', null ]
+10 verbose cache add spec gulp-util@latest
+11 silly cache add args [ 'gulp-bower@latest', null ]
+12 verbose cache add spec gulp-bower@latest
+13 silly cache add args [ 'gulp-concat@latest', null ]
+14 verbose cache add spec gulp-concat@latest
+15 silly cache add args [ 'gulp-uglify@latest', null ]
+16 verbose cache add spec gulp-uglify@latest
+17 silly cache add args [ 'gulp-less@latest', null ]
+18 verbose cache add spec gulp-less@latest
+19 silly cache add args [ 'gulp-imagemin@latest', null ]
+20 verbose cache add spec gulp-imagemin@latest
+21 silly cache add args [ 'gulp-nunjucks-render@latest', null ]
+22 verbose cache add spec gulp-nunjucks-render@latest
+23 silly cache add args [ 'gulp-newer@latest', null ]
+24 verbose cache add spec gulp-newer@latest
+25 silly cache add args [ 'gulp-handlebars@latest', null ]
+26 verbose cache add spec gulp-handlebars@latest
+27 silly cache add args [ 'gulp-declare@latest', null ]
+28 verbose cache add spec gulp-declare@latest
+29 silly cache add args [ 'gulp-wrap@latest', null ]
+30 verbose cache add spec gulp-wrap@latest
+31 silly cache add args [ 'gulp-ftp@latest', null ]
+32 verbose cache add spec gulp-ftp@latest
+33 silly cache add args [ 'require-dir@latest', null ]
+34 verbose cache add spec require-dir@latest
+35 silly cache add args [ 'browser-sync@latest', null ]
+36 verbose cache add spec browser-sync@latest
+37 silly cache add parsed spec { raw: 'gulp@latest',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'gulp',
+37 silly cache add   rawSpec: 'latest',
+37 silly cache add   spec: 'latest',
+37 silly cache add   type: 'tag' }
+38 verbose addNamed gulp@latest
+39 silly addNamed semver.valid null
+40 silly addNamed semver.validRange null
+41 info addNameTag [ 'gulp', 'latest' ]
+42 silly mapToRegistry name gulp
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry uri https://registry.npmjs.org/gulp
+46 verbose addNameTag registry:https://registry.npmjs.org/gulp not in flight; fetching
+47 silly cache add parsed spec { raw: 'gulp-util@latest',
+47 silly cache add   scope: null,
+47 silly cache add   name: 'gulp-util',
+47 silly cache add   rawSpec: 'latest',
+47 silly cache add   spec: 'latest',
+47 silly cache add   type: 'tag' }
+48 verbose addNamed gulp-util@latest
+49 silly addNamed semver.valid null
+50 silly addNamed semver.validRange null
+51 info addNameTag [ 'gulp-util', 'latest' ]
+52 silly mapToRegistry name gulp-util
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/gulp-util
+56 verbose addNameTag registry:https://registry.npmjs.org/gulp-util not in flight; fetching
+57 silly cache add parsed spec { raw: 'gulp-bower@latest',
+57 silly cache add   scope: null,
+57 silly cache add   name: 'gulp-bower',
+57 silly cache add   rawSpec: 'latest',
+57 silly cache add   spec: 'latest',
+57 silly cache add   type: 'tag' }
+58 verbose addNamed gulp-bower@latest
+59 silly addNamed semver.valid null
+60 silly addNamed semver.validRange null
+61 info addNameTag [ 'gulp-bower', 'latest' ]
+62 silly mapToRegistry name gulp-bower
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/gulp-bower
+66 verbose addNameTag registry:https://registry.npmjs.org/gulp-bower not in flight; fetching
+67 silly cache add parsed spec { raw: 'gulp-concat@latest',
+67 silly cache add   scope: null,
+67 silly cache add   name: 'gulp-concat',
+67 silly cache add   rawSpec: 'latest',
+67 silly cache add   spec: 'latest',
+67 silly cache add   type: 'tag' }
+68 verbose addNamed gulp-concat@latest
+69 silly addNamed semver.valid null
+70 silly addNamed semver.validRange null
+71 info addNameTag [ 'gulp-concat', 'latest' ]
+72 silly mapToRegistry name gulp-concat
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/gulp-concat
+76 verbose addNameTag registry:https://registry.npmjs.org/gulp-concat not in flight; fetching
+77 silly cache add parsed spec { raw: 'gulp-uglify@latest',
+77 silly cache add   scope: null,
+77 silly cache add   name: 'gulp-uglify',
+77 silly cache add   rawSpec: 'latest',
+77 silly cache add   spec: 'latest',
+77 silly cache add   type: 'tag' }
+78 verbose addNamed gulp-uglify@latest
+79 silly addNamed semver.valid null
+80 silly addNamed semver.validRange null
+81 info addNameTag [ 'gulp-uglify', 'latest' ]
+82 silly mapToRegistry name gulp-uglify
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglify
+86 verbose addNameTag registry:https://registry.npmjs.org/gulp-uglify not in flight; fetching
+87 silly cache add parsed spec { raw: 'gulp-less@latest',
+87 silly cache add   scope: null,
+87 silly cache add   name: 'gulp-less',
+87 silly cache add   rawSpec: 'latest',
+87 silly cache add   spec: 'latest',
+87 silly cache add   type: 'tag' }
+88 verbose addNamed gulp-less@latest
+89 silly addNamed semver.valid null
+90 silly addNamed semver.validRange null
+91 info addNameTag [ 'gulp-less', 'latest' ]
+92 silly mapToRegistry name gulp-less
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry uri https://registry.npmjs.org/gulp-less
+96 verbose addNameTag registry:https://registry.npmjs.org/gulp-less not in flight; fetching
+97 silly cache add parsed spec { raw: 'gulp-imagemin@latest',
+97 silly cache add   scope: null,
+97 silly cache add   name: 'gulp-imagemin',
+97 silly cache add   rawSpec: 'latest',
+97 silly cache add   spec: 'latest',
+97 silly cache add   type: 'tag' }
+98 verbose addNamed gulp-imagemin@latest
+99 silly addNamed semver.valid null
+100 silly addNamed semver.validRange null
+101 info addNameTag [ 'gulp-imagemin', 'latest' ]
+102 silly mapToRegistry name gulp-imagemin
+103 silly mapToRegistry using default registry
+104 silly mapToRegistry registry https://registry.npmjs.org/
+105 silly mapToRegistry uri https://registry.npmjs.org/gulp-imagemin
+106 verbose addNameTag registry:https://registry.npmjs.org/gulp-imagemin not in flight; fetching
+107 silly cache add parsed spec { raw: 'gulp-nunjucks-render@latest',
+107 silly cache add   scope: null,
+107 silly cache add   name: 'gulp-nunjucks-render',
+107 silly cache add   rawSpec: 'latest',
+107 silly cache add   spec: 'latest',
+107 silly cache add   type: 'tag' }
+108 verbose addNamed gulp-nunjucks-render@latest
+109 silly addNamed semver.valid null
+110 silly addNamed semver.validRange null
+111 info addNameTag [ 'gulp-nunjucks-render', 'latest' ]
+112 silly mapToRegistry name gulp-nunjucks-render
+113 silly mapToRegistry using default registry
+114 silly mapToRegistry registry https://registry.npmjs.org/
+115 silly mapToRegistry uri https://registry.npmjs.org/gulp-nunjucks-render
+116 verbose addNameTag registry:https://registry.npmjs.org/gulp-nunjucks-render not in flight; fetching
+117 silly cache add parsed spec { raw: 'gulp-newer@latest',
+117 silly cache add   scope: null,
+117 silly cache add   name: 'gulp-newer',
+117 silly cache add   rawSpec: 'latest',
+117 silly cache add   spec: 'latest',
+117 silly cache add   type: 'tag' }
+118 verbose addNamed gulp-newer@latest
+119 silly addNamed semver.valid null
+120 silly addNamed semver.validRange null
+121 info addNameTag [ 'gulp-newer', 'latest' ]
+122 silly mapToRegistry name gulp-newer
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://registry.npmjs.org/
+125 silly mapToRegistry uri https://registry.npmjs.org/gulp-newer
+126 verbose addNameTag registry:https://registry.npmjs.org/gulp-newer not in flight; fetching
+127 silly cache add parsed spec { raw: 'gulp-handlebars@latest',
+127 silly cache add   scope: null,
+127 silly cache add   name: 'gulp-handlebars',
+127 silly cache add   rawSpec: 'latest',
+127 silly cache add   spec: 'latest',
+127 silly cache add   type: 'tag' }
+128 verbose addNamed gulp-handlebars@latest
+129 silly addNamed semver.valid null
+130 silly addNamed semver.validRange null
+131 info addNameTag [ 'gulp-handlebars', 'latest' ]
+132 silly mapToRegistry name gulp-handlebars
+133 silly mapToRegistry using default registry
+134 silly mapToRegistry registry https://registry.npmjs.org/
+135 silly mapToRegistry uri https://registry.npmjs.org/gulp-handlebars
+136 verbose addNameTag registry:https://registry.npmjs.org/gulp-handlebars not in flight; fetching
+137 silly cache add parsed spec { raw: 'gulp-declare@latest',
+137 silly cache add   scope: null,
+137 silly cache add   name: 'gulp-declare',
+137 silly cache add   rawSpec: 'latest',
+137 silly cache add   spec: 'latest',
+137 silly cache add   type: 'tag' }
+138 verbose addNamed gulp-declare@latest
+139 silly addNamed semver.valid null
+140 silly addNamed semver.validRange null
+141 info addNameTag [ 'gulp-declare', 'latest' ]
+142 silly mapToRegistry name gulp-declare
+143 silly mapToRegistry using default registry
+144 silly mapToRegistry registry https://registry.npmjs.org/
+145 silly mapToRegistry uri https://registry.npmjs.org/gulp-declare
+146 verbose addNameTag registry:https://registry.npmjs.org/gulp-declare not in flight; fetching
+147 silly cache add parsed spec { raw: 'gulp-wrap@latest',
+147 silly cache add   scope: null,
+147 silly cache add   name: 'gulp-wrap',
+147 silly cache add   rawSpec: 'latest',
+147 silly cache add   spec: 'latest',
+147 silly cache add   type: 'tag' }
+148 verbose addNamed gulp-wrap@latest
+149 silly addNamed semver.valid null
+150 silly addNamed semver.validRange null
+151 info addNameTag [ 'gulp-wrap', 'latest' ]
+152 silly mapToRegistry name gulp-wrap
+153 silly mapToRegistry using default registry
+154 silly mapToRegistry registry https://registry.npmjs.org/
+155 silly mapToRegistry uri https://registry.npmjs.org/gulp-wrap
+156 verbose addNameTag registry:https://registry.npmjs.org/gulp-wrap not in flight; fetching
+157 silly cache add parsed spec { raw: 'gulp-ftp@latest',
+157 silly cache add   scope: null,
+157 silly cache add   name: 'gulp-ftp',
+157 silly cache add   rawSpec: 'latest',
+157 silly cache add   spec: 'latest',
+157 silly cache add   type: 'tag' }
+158 verbose addNamed gulp-ftp@latest
+159 silly addNamed semver.valid null
+160 silly addNamed semver.validRange null
+161 info addNameTag [ 'gulp-ftp', 'latest' ]
+162 silly mapToRegistry name gulp-ftp
+163 silly mapToRegistry using default registry
+164 silly mapToRegistry registry https://registry.npmjs.org/
+165 silly mapToRegistry uri https://registry.npmjs.org/gulp-ftp
+166 verbose addNameTag registry:https://registry.npmjs.org/gulp-ftp not in flight; fetching
+167 silly cache add parsed spec { raw: 'require-dir@latest',
+167 silly cache add   scope: null,
+167 silly cache add   name: 'require-dir',
+167 silly cache add   rawSpec: 'latest',
+167 silly cache add   spec: 'latest',
+167 silly cache add   type: 'tag' }
+168 verbose addNamed require-dir@latest
+169 silly addNamed semver.valid null
+170 silly addNamed semver.validRange null
+171 info addNameTag [ 'require-dir', 'latest' ]
+172 silly mapToRegistry name require-dir
+173 silly mapToRegistry using default registry
+174 silly mapToRegistry registry https://registry.npmjs.org/
+175 silly mapToRegistry uri https://registry.npmjs.org/require-dir
+176 verbose addNameTag registry:https://registry.npmjs.org/require-dir not in flight; fetching
+177 silly cache add parsed spec { raw: 'browser-sync@latest',
+177 silly cache add   scope: null,
+177 silly cache add   name: 'browser-sync',
+177 silly cache add   rawSpec: 'latest',
+177 silly cache add   spec: 'latest',
+177 silly cache add   type: 'tag' }
+178 verbose addNamed browser-sync@latest
+179 silly addNamed semver.valid null
+180 silly addNamed semver.validRange null
+181 info addNameTag [ 'browser-sync', 'latest' ]
+182 silly mapToRegistry name browser-sync
+183 silly mapToRegistry using default registry
+184 silly mapToRegistry registry https://registry.npmjs.org/
+185 silly mapToRegistry uri https://registry.npmjs.org/browser-sync
+186 verbose addNameTag registry:https://registry.npmjs.org/browser-sync not in flight; fetching
+187 verbose request uri https://registry.npmjs.org/gulp-util
+188 verbose request no auth needed
+189 info attempt registry request try #1 at 15:28:55
+190 verbose request id be6bd655a1e0a0e8
+191 verbose etag "DIUKO64CAGIGX0XUMH45I0Y5X"
+192 http request GET https://registry.npmjs.org/gulp-util
+193 verbose request uri https://registry.npmjs.org/gulp
+194 verbose request no auth needed
+195 info attempt registry request try #1 at 15:28:55
+196 verbose etag "EABXN5QK55Y3IJ6H3UD33QU9G"
+197 http request GET https://registry.npmjs.org/gulp
+198 verbose request uri https://registry.npmjs.org/gulp-bower
+199 verbose request no auth needed
+200 info attempt registry request try #1 at 15:28:55
+201 verbose etag "AUKNPDN0RU1T7BOAO8O5QSXSG"
+202 http request GET https://registry.npmjs.org/gulp-bower
+203 verbose request uri https://registry.npmjs.org/gulp-concat
+204 verbose request no auth needed
+205 info attempt registry request try #1 at 15:28:55
+206 verbose etag "EF4YF9NL39EOEYZ2MHRENV78C"
+207 http request GET https://registry.npmjs.org/gulp-concat
+208 verbose request uri https://registry.npmjs.org/gulp-uglify
+209 verbose request no auth needed
+210 info attempt registry request try #1 at 15:28:55
+211 verbose etag "3K62FJXJRWSD6YAQ9FTTCUCYU"
+212 http request GET https://registry.npmjs.org/gulp-uglify
+213 verbose request uri https://registry.npmjs.org/gulp-newer
+214 verbose request no auth needed
+215 info attempt registry request try #1 at 15:28:55
+216 verbose etag "3X3DCLS2F4E99B1W3B93GGN0W"
+217 http request GET https://registry.npmjs.org/gulp-newer
+218 verbose request uri https://registry.npmjs.org/gulp-nunjucks-render
+219 verbose request no auth needed
+220 info attempt registry request try #1 at 15:28:55
+221 verbose etag "CIOMHARR4MHX8JPBUPLJPMAGA"
+222 http request GET https://registry.npmjs.org/gulp-nunjucks-render
+223 verbose request uri https://registry.npmjs.org/gulp-ftp
+224 verbose request no auth needed
+225 info attempt registry request try #1 at 15:28:55
+226 verbose etag "1X7TNZM4IMKS2KPMW0Z5WXAXT"
+227 http request GET https://registry.npmjs.org/gulp-ftp
+228 verbose request uri https://registry.npmjs.org/gulp-handlebars
+229 verbose request no auth needed
+230 info attempt registry request try #1 at 15:28:55
+231 verbose etag "7RUPN72N6LH3U1MIC7NBW5UTY"
+232 http request GET https://registry.npmjs.org/gulp-handlebars
+233 verbose request uri https://registry.npmjs.org/gulp-declare
+234 verbose request no auth needed
+235 info attempt registry request try #1 at 15:28:56
+236 verbose etag "AK4D1Y6F6289IT8QMYUYA4ZXB"
+237 http request GET https://registry.npmjs.org/gulp-declare
+238 verbose request uri https://registry.npmjs.org/gulp-wrap
+239 verbose request no auth needed
+240 info attempt registry request try #1 at 15:28:56
+241 verbose etag "8OGHT7AZPVBZSCWJTSDHA9UVR"
+242 http request GET https://registry.npmjs.org/gulp-wrap
+243 verbose request uri https://registry.npmjs.org/gulp-less
+244 verbose request no auth needed
+245 info attempt registry request try #1 at 15:28:56
+246 verbose etag "EL635NAYMXUEOKU88Y4YA0ZIU"
+247 http request GET https://registry.npmjs.org/gulp-less
+248 verbose request uri https://registry.npmjs.org/gulp-imagemin
+249 verbose request no auth needed
+250 info attempt registry request try #1 at 15:28:56
+251 verbose etag "EU46AC1YN01Z62NN4QCGDEJK"
+252 http request GET https://registry.npmjs.org/gulp-imagemin
+253 verbose request uri https://registry.npmjs.org/require-dir
+254 verbose request no auth needed
+255 info attempt registry request try #1 at 15:28:56
+256 verbose etag "EA5I6PGDR461F4YF9E7VR769X"
+257 http request GET https://registry.npmjs.org/require-dir
+258 verbose request uri https://registry.npmjs.org/browser-sync
+259 verbose request no auth needed
+260 info attempt registry request try #1 at 15:28:56
+261 verbose etag "6SD8HW6XE92TU8D5IY7L6M1AI"
+262 http request GET https://registry.npmjs.org/browser-sync
+263 http 200 https://registry.npmjs.org/gulp-bower
+264 silly get cb [ 200,
+264 silly get   { date: 'Mon, 09 Mar 2015 12:28:56 GMT',
+264 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+264 silly get     etag: '"99QC1JYB53RDJTBJ1S4IP1VII"',
+264 silly get     'content-type': 'application/json',
+264 silly get     'cache-control': 'max-age=60',
+264 silly get     'content-length': '13808',
+264 silly get     'accept-ranges': 'bytes',
+264 silly get     via: '1.1 varnish',
+264 silly get     age: '53',
+264 silly get     'x-served-by': 'cache-ams4130-AMS',
+264 silly get     'x-cache': 'HIT',
+264 silly get     'x-cache-hits': '1',
+264 silly get     'x-timer': 'S1425904136.309933,VS0,VE0',
+264 silly get     vary: 'Accept',
+264 silly get     'keep-alive': 'timeout=10, max=50',
+264 silly get     connection: 'Keep-Alive' } ]
+265 http 200 https://registry.npmjs.org/gulp-concat
+266 silly get cb [ 200,
+266 silly get   { date: 'Mon, 09 Mar 2015 12:28:56 GMT',
+266 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+266 silly get     etag: '"5NT3PWW6I489EHKVMNDEMUY9Z"',
+266 silly get     'content-type': 'application/json',
+266 silly get     'cache-control': 'max-age=60',
+266 silly get     'content-length': '35017',
+266 silly get     'accept-ranges': 'bytes',
+266 silly get     via: '1.1 varnish',
+266 silly get     age: '38',
+266 silly get     'x-served-by': 'cache-ams4127-AMS',
+266 silly get     'x-cache': 'HIT',
+266 silly get     'x-cache-hits': '3',
+266 silly get     'x-timer': 'S1425904136.309733,VS0,VE0',
+266 silly get     vary: 'Accept',
+266 silly get     'keep-alive': 'timeout=10, max=50',
+266 silly get     connection: 'Keep-Alive' } ]
+267 http 200 https://registry.npmjs.org/gulp-uglify
+268 silly get cb [ 200,
+268 silly get   { date: 'Mon, 09 Mar 2015 12:28:56 GMT',
+268 silly get     server: 'CouchDB/1.6.1 (Erlang OTP/R14B04)',
+268 silly get     etag: '"97H8X7NMWSVC0FIFITYB1CT22"',
+268 silly get     'content-type': 'application/json',
+268 silly get     'cache-control': 'max-age=60',
+268 silly get     'content-length': '23322',
+268 silly get     'accept-ranges': 'bytes',
+268 silly get     via: '1.1 varnish',
+268 silly get     age: '29',
+268 silly get     'x-served-by': 'cache-ams4132-AMS',
+268 silly get     'x-cache': 'HIT',
+268 silly get     'x-cache-hits': '5',
+268 silly get     'x-timer': 'S1425904136.318211,VS0,VE0',
+268 silly get     vary: 'Accept',
+268 silly get     'keep-alive': 'timeout=10, max=50',
+268 silly get     connection: 'Keep-Alive' } ]
+269 silly addNameTag next cb for gulp-concat with tag latest
+270 verbose addNamed gulp-concat@2.5.2
+271 silly addNamed semver.valid 2.5.2
+272 silly addNamed semver.validRange 2.5.2
+273 silly addNameTag next cb for gulp-bower with tag latest
+274 verbose addNamed gulp-bower@0.0.10
+275 silly addNamed semver.valid 0.0.10
+276 silly addNamed semver.validRange 0.0.10
+277 silly addNameTag next cb for gulp-uglify with tag latest
+278 verbose addNamed gulp-uglify@1.1.0
+279 silly addNamed semver.valid 1.1.0
+280 silly addNamed semver.validRange 1.1.0
+281 silly mapToRegistry name gulp-concat
+282 silly mapToRegistry using default registry
+283 silly mapToRegistry registry https://registry.npmjs.org/
+284 silly mapToRegistry uri https://registry.npmjs.org/gulp-concat
+285 verbose addRemoteTarball https://registry.npmjs.org/gulp-concat/-/gulp-concat-2.5.2.tgz not in flight; adding
+286 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-concat/-/gulp-concat-2.5.2.tgz',
+286 verbose addRemoteTarball   'd644372cdc2b3cdb421a8a941c8d74e21d815f14' ]
+287 silly cache afterAdd gulp-bower@0.0.10
+288 verbose afterAdd /Users/maddocnc/.npm/gulp-bower/0.0.10/package/package.json not in flight; writing
+289 silly cache afterAdd gulp-uglify@1.1.0
+290 verbose afterAdd /Users/maddocnc/.npm/gulp-uglify/1.1.0/package/package.json not in flight; writing
+291 info retry fetch attempt 1 at 15:28:56
+292 info attempt registry request try #1 at 15:28:56
+293 http fetch GET https://registry.npmjs.org/gulp-concat/-/gulp-concat-2.5.2.tgz
+294 verbose afterAdd /Users/maddocnc/.npm/gulp-bower/0.0.10/package/package.json written
+295 verbose afterAdd /Users/maddocnc/.npm/gulp-uglify/1.1.0/package/package.json written
+296 http 200 https://registry.npmjs.org/gulp-util
+297 silly get cb [ 200,
+297 silly get   { date: 'Mon, 09 Mar 2015 12:28:56 GMT',
+297 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+297 silly get     etag: '"BRWKZQ1PUJPNTZKS7LX786BP"',
+297 silly get     'content-type': 'application/json',
+297 silly get     'cache-control': 'max-age=60',
+297 silly get     'content-length': '55609',
+297 silly get     'accept-ranges': 'bytes',
+297 silly get     via: '1.1 varnish',
+297 silly get     age: '42',
+297 silly get     'x-served-by': 'cache-ams4139-AMS',
+297 silly get     'x-cache': 'HIT',
+297 silly get     'x-cache-hits': '1',
+297 silly get     'x-timer': 'S1425904136.319045,VS0,VE0',
+297 silly get     vary: 'Accept',
+297 silly get     'keep-alive': 'timeout=10, max=50',
+297 silly get     connection: 'Keep-Alive' } ]
+298 http 200 https://registry.npmjs.org/gulp-newer
+299 silly get cb [ 200,
+299 silly get   { date: 'Mon, 09 Mar 2015 12:28:56 GMT',
+299 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+299 silly get     etag: '"1P42C7YDQXZLNSJYFHAKWDGVA"',
+299 silly get     'content-type': 'application/json',
+299 silly get     'cache-control': 'max-age=60',
+299 silly get     'content-length': '10975',
+299 silly get     'accept-ranges': 'bytes',
+299 silly get     via: '1.1 varnish',
+299 silly get     age: '20',
+299 silly get     'x-served-by': 'cache-ams4130-AMS',
+299 silly get     'x-cache': 'HIT',
+299 silly get     'x-cache-hits': '1',
+299 silly get     'x-timer': 'S1425904136.458683,VS0,VE0',
+299 silly get     vary: 'Accept',
+299 silly get     'keep-alive': 'timeout=10, max=49',
+299 silly get     connection: 'Keep-Alive' } ]
+300 silly addNameTag next cb for gulp-newer with tag latest
+301 verbose addNamed gulp-newer@0.5.0
+302 silly addNamed semver.valid 0.5.0
+303 silly addNamed semver.validRange 0.5.0
+304 silly addNameTag next cb for gulp-util with tag latest
+305 verbose addNamed gulp-util@3.0.4
+306 silly addNamed semver.valid 3.0.4
+307 silly addNamed semver.validRange 3.0.4
+308 silly mapToRegistry name gulp-util
+309 silly mapToRegistry using default registry
+310 silly mapToRegistry registry https://registry.npmjs.org/
+311 silly mapToRegistry uri https://registry.npmjs.org/gulp-util
+312 verbose addRemoteTarball https://registry.npmjs.org/gulp-util/-/gulp-util-3.0.4.tgz not in flight; adding
+313 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-util/-/gulp-util-3.0.4.tgz',
+313 verbose addRemoteTarball   'ec73553090fdb23d88fa02812ad1b61225854881' ]
+314 info retry fetch attempt 1 at 15:28:56
+315 info attempt registry request try #1 at 15:28:56
+316 http fetch GET https://registry.npmjs.org/gulp-util/-/gulp-util-3.0.4.tgz
+317 silly cache afterAdd gulp-newer@0.5.0
+318 verbose afterAdd /Users/maddocnc/.npm/gulp-newer/0.5.0/package/package.json not in flight; writing
+319 verbose afterAdd /Users/maddocnc/.npm/gulp-newer/0.5.0/package/package.json written
+320 http 200 https://registry.npmjs.org/gulp
+321 silly get cb [ 200,
+321 silly get   { date: 'Mon, 09 Mar 2015 12:28:56 GMT',
+321 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+321 silly get     etag: '"JNNYN3XHQENL4A9HRA9D0458"',
+321 silly get     'content-type': 'application/json',
+321 silly get     'cache-control': 'max-age=60',
+321 silly get     'content-length': '100390',
+321 silly get     'accept-ranges': 'bytes',
+321 silly get     via: '1.1 varnish',
+321 silly get     age: '10',
+321 silly get     'x-served-by': 'cache-ams4131-AMS',
+321 silly get     'x-cache': 'HIT',
+321 silly get     'x-cache-hits': '2',
+321 silly get     'x-timer': 'S1425904136.314041,VS0,VE0',
+321 silly get     vary: 'Accept',
+321 silly get     'keep-alive': 'timeout=10, max=50',
+321 silly get     connection: 'Keep-Alive' } ]
+322 silly addNameTag next cb for gulp with tag latest
+323 verbose addNamed gulp@3.8.11
+324 silly addNamed semver.valid 3.8.11
+325 silly addNamed semver.validRange 3.8.11
+326 silly mapToRegistry name gulp
+327 silly mapToRegistry using default registry
+328 silly mapToRegistry registry https://registry.npmjs.org/
+329 silly mapToRegistry uri https://registry.npmjs.org/gulp
+330 verbose addRemoteTarball https://registry.npmjs.org/gulp/-/gulp-3.8.11.tgz not in flight; adding
+331 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp/-/gulp-3.8.11.tgz',
+331 verbose addRemoteTarball   'd557e0a7283eb4136491969b0497767972f1d28a' ]
+332 info retry fetch attempt 1 at 15:28:56
+333 info attempt registry request try #1 at 15:28:56
+334 http fetch GET https://registry.npmjs.org/gulp/-/gulp-3.8.11.tgz
+335 http 200 https://registry.npmjs.org/gulp-handlebars
+336 silly get cb [ 200,
+336 silly get   { date: 'Mon, 09 Mar 2015 12:28:56 GMT',
+336 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+336 silly get     etag: '"8VGHBCXXT1SBKAQBNB58OIJEY"',
+336 silly get     'content-type': 'application/json',
+336 silly get     'cache-control': 'max-age=60',
+336 silly get     'content-length': '27134',
+336 silly get     'accept-ranges': 'bytes',
+336 silly get     via: '1.1 varnish',
+336 silly get     age: '8',
+336 silly get     'x-served-by': 'cache-ams4139-AMS',
+336 silly get     'x-cache': 'HIT',
+336 silly get     'x-cache-hits': '1',
+336 silly get     'x-timer': 'S1425904136.526799,VS0,VE0',
+336 silly get     vary: 'Accept',
+336 silly get     'keep-alive': 'timeout=10, max=49',
+336 silly get     connection: 'Keep-Alive' } ]
+337 http 304 https://registry.npmjs.org/gulp-declare
+338 silly get cb [ 304,
+338 silly get   { date: 'Mon, 09 Mar 2015 12:28:56 GMT',
+338 silly get     server: 'Apache',
+338 silly get     via: '1.1 varnish',
+338 silly get     'last-modified': 'Mon, 09 Mar 2015 12:28:56 GMT',
+338 silly get     'cache-control': 'max-age=60',
+338 silly get     etag: '"AK4D1Y6F6289IT8QMYUYA4ZXB"',
+338 silly get     age: '54',
+338 silly get     'x-served-by': 'cache-ams4130-AMS',
+338 silly get     'x-cache': 'HIT',
+338 silly get     'x-cache-hits': '1',
+338 silly get     'x-timer': 'S1425904136.527384,VS0,VE0',
+338 silly get     vary: 'Accept',
+338 silly get     'content-length': '0',
+338 silly get     'keep-alive': 'timeout=10, max=48',
+338 silly get     connection: 'Keep-Alive' } ]
+339 verbose etag https://registry.npmjs.org/gulp-declare from cache
+340 silly addNameTag next cb for gulp-declare with tag latest
+341 verbose addNamed gulp-declare@0.3.0
+342 silly addNamed semver.valid 0.3.0
+343 silly addNamed semver.validRange 0.3.0
+344 silly addNameTag next cb for gulp-handlebars with tag latest
+345 verbose addNamed gulp-handlebars@4.0.0
+346 silly addNamed semver.valid 4.0.0
+347 silly addNamed semver.validRange 4.0.0
+348 silly mapToRegistry name gulp-handlebars
+349 silly mapToRegistry using default registry
+350 silly mapToRegistry registry https://registry.npmjs.org/
+351 silly mapToRegistry uri https://registry.npmjs.org/gulp-handlebars
+352 verbose addRemoteTarball https://registry.npmjs.org/gulp-handlebars/-/gulp-handlebars-4.0.0.tgz not in flight; adding
+353 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-handlebars/-/gulp-handlebars-4.0.0.tgz',
+353 verbose addRemoteTarball   'b5ff46a4197e7ccc9f259a5092a2c29f47953b29' ]
+354 info retry fetch attempt 1 at 15:28:56
+355 info attempt registry request try #1 at 15:28:56
+356 http fetch GET https://registry.npmjs.org/gulp-handlebars/-/gulp-handlebars-4.0.0.tgz
+357 silly cache afterAdd gulp-declare@0.3.0
+358 verbose afterAdd /Users/maddocnc/.npm/gulp-declare/0.3.0/package/package.json not in flight; writing
+359 verbose afterAdd /Users/maddocnc/.npm/gulp-declare/0.3.0/package/package.json written
+360 http 200 https://registry.npmjs.org/gulp-ftp
+361 silly get cb [ 200,
+361 silly get   { date: 'Mon, 09 Mar 2015 12:28:56 GMT',
+361 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+361 silly get     etag: '"CYL96NNHK63PKRJGA4C6S98ZF"',
+361 silly get     'content-type': 'application/json',
+361 silly get     'cache-control': 'max-age=60',
+361 silly get     'content-length': '18650',
+361 silly get     'accept-ranges': 'bytes',
+361 silly get     via: '1.1 varnish',
+361 silly get     age: '0',
+361 silly get     'x-served-by': 'cache-ams4132-AMS',
+361 silly get     'x-cache': 'MISS',
+361 silly get     'x-cache-hits': '0',
+361 silly get     'x-timer': 'S1425904136.465642,VS0,VE91',
+361 silly get     vary: 'Accept',
+361 silly get     'keep-alive': 'timeout=10, max=49',
+361 silly get     connection: 'Keep-Alive' } ]
+362 http 200 https://registry.npmjs.org/gulp-wrap
+363 silly get cb [ 200,
+363 silly get   { date: 'Mon, 09 Mar 2015 12:28:56 GMT',
+363 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+363 silly get     etag: '"73L2K8V5ZRDXQRR4SHCZQ837P"',
+363 silly get     'content-type': 'application/json',
+363 silly get     'cache-control': 'max-age=60',
+363 silly get     'content-length': '21793',
+363 silly get     'accept-ranges': 'bytes',
+363 silly get     via: '1.1 varnish',
+363 silly get     age: '8',
+363 silly get     'x-served-by': 'cache-ams4131-AMS',
+363 silly get     'x-cache': 'HIT',
+363 silly get     'x-cache-hits': '1',
+363 silly get     'x-timer': 'S1425904136.566428,VS0,VE0',
+363 silly get     vary: 'Accept',
+363 silly get     'keep-alive': 'timeout=10, max=49',
+363 silly get     connection: 'Keep-Alive' } ]
+364 silly addNameTag next cb for gulp-ftp with tag latest
+365 verbose addNamed gulp-ftp@1.0.3
+366 silly addNamed semver.valid 1.0.3
+367 silly addNamed semver.validRange 1.0.3
+368 silly mapToRegistry name gulp-ftp
+369 silly mapToRegistry using default registry
+370 silly mapToRegistry registry https://registry.npmjs.org/
+371 silly mapToRegistry uri https://registry.npmjs.org/gulp-ftp
+372 verbose addRemoteTarball https://registry.npmjs.org/gulp-ftp/-/gulp-ftp-1.0.3.tgz not in flight; adding
+373 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-ftp/-/gulp-ftp-1.0.3.tgz',
+373 verbose addRemoteTarball   '7e43041565ecac3d2762b11adbf0c7b2f1ff589b' ]
+374 silly addNameTag next cb for gulp-wrap with tag latest
+375 verbose addNamed gulp-wrap@0.11.0
+376 silly addNamed semver.valid 0.11.0
+377 silly addNamed semver.validRange 0.11.0
+378 silly mapToRegistry name gulp-wrap
+379 silly mapToRegistry using default registry
+380 silly mapToRegistry registry https://registry.npmjs.org/
+381 silly mapToRegistry uri https://registry.npmjs.org/gulp-wrap
+382 verbose addRemoteTarball https://registry.npmjs.org/gulp-wrap/-/gulp-wrap-0.11.0.tgz not in flight; adding
+383 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-wrap/-/gulp-wrap-0.11.0.tgz',
+383 verbose addRemoteTarball   '6b49f3f6bf1c9964fc4f0c60c2ee4677ad49b5c1' ]
+384 info retry fetch attempt 1 at 15:28:56
+385 info attempt registry request try #1 at 15:28:56
+386 http fetch GET https://registry.npmjs.org/gulp-ftp/-/gulp-ftp-1.0.3.tgz
+387 info retry fetch attempt 1 at 15:28:56
+388 info attempt registry request try #1 at 15:28:56
+389 http fetch GET https://registry.npmjs.org/gulp-wrap/-/gulp-wrap-0.11.0.tgz
+390 http 200 https://registry.npmjs.org/require-dir
+391 silly get cb [ 200,
+391 silly get   { date: 'Mon, 09 Mar 2015 12:28:56 GMT',
+391 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+391 silly get     etag: '"6752MILU7Q85BSP5K2U49RLJF"',
+391 silly get     'content-type': 'application/json',
+391 silly get     'cache-control': 'max-age=60',
+391 silly get     'content-length': '5109',
+391 silly get     'accept-ranges': 'bytes',
+391 silly get     via: '1.1 varnish',
+391 silly get     age: '55',
+391 silly get     'x-served-by': 'cache-ams4132-AMS',
+391 silly get     'x-cache': 'HIT',
+391 silly get     'x-cache-hits': '2',
+391 silly get     'x-timer': 'S1425904136.624690,VS0,VE0',
+391 silly get     vary: 'Accept',
+391 silly get     'keep-alive': 'timeout=10, max=48',
+391 silly get     connection: 'Keep-Alive' } ]
+392 silly addNameTag next cb for require-dir with tag latest
+393 verbose addNamed require-dir@0.1.0
+394 silly addNamed semver.valid 0.1.0
+395 silly addNamed semver.validRange 0.1.0
+396 silly cache afterAdd require-dir@0.1.0
+397 verbose afterAdd /Users/maddocnc/.npm/require-dir/0.1.0/package/package.json not in flight; writing
+398 verbose afterAdd /Users/maddocnc/.npm/require-dir/0.1.0/package/package.json written
+399 http 200 https://registry.npmjs.org/gulp-less
+400 silly get cb [ 200,
+400 silly get   { date: 'Mon, 09 Mar 2015 12:28:56 GMT',
+400 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+400 silly get     etag: '"3NXTSB2UDDVVE8BAF9OEHDM2J"',
+400 silly get     'content-type': 'application/json',
+400 silly get     'cache-control': 'max-age=60',
+400 silly get     'content-length': '48646',
+400 silly get     'accept-ranges': 'bytes',
+400 silly get     via: '1.1 varnish',
+400 silly get     age: '40',
+400 silly get     'x-served-by': 'cache-ams4139-AMS',
+400 silly get     'x-cache': 'HIT',
+400 silly get     'x-cache-hits': '1',
+400 silly get     'x-timer': 'S1425904136.591470,VS0,VE0',
+400 silly get     vary: 'Accept',
+400 silly get     'keep-alive': 'timeout=10, max=48',
+400 silly get     connection: 'Keep-Alive' } ]
+401 silly addNameTag next cb for gulp-less with tag latest
+402 verbose addNamed gulp-less@3.0.1
+403 silly addNamed semver.valid 3.0.1
+404 silly addNamed semver.validRange 3.0.1
+405 silly mapToRegistry name gulp-less
+406 silly mapToRegistry using default registry
+407 silly mapToRegistry registry https://registry.npmjs.org/
+408 silly mapToRegistry uri https://registry.npmjs.org/gulp-less
+409 verbose addRemoteTarball https://registry.npmjs.org/gulp-less/-/gulp-less-3.0.1.tgz not in flight; adding
+410 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-less/-/gulp-less-3.0.1.tgz',
+410 verbose addRemoteTarball   '883217b3d6f6da29f3c8bcd07df47db0e4fc63c1' ]
+411 info retry fetch attempt 1 at 15:28:56
+412 info attempt registry request try #1 at 15:28:56
+413 http fetch GET https://registry.npmjs.org/gulp-less/-/gulp-less-3.0.1.tgz
+414 http 200 https://registry.npmjs.org/gulp-imagemin
+415 silly get cb [ 200,
+415 silly get   { date: 'Mon, 09 Mar 2015 12:28:56 GMT',
+415 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+415 silly get     etag: '"41H357PMEH46VT62ZEFEM4PSQ"',
+415 silly get     'content-type': 'application/json',
+415 silly get     'cache-control': 'max-age=60',
+415 silly get     'content-length': '33436',
+415 silly get     'accept-ranges': 'bytes',
+415 silly get     via: '1.1 varnish',
+415 silly get     age: '7',
+415 silly get     'x-served-by': 'cache-ams4130-AMS',
+415 silly get     'x-cache': 'HIT',
+415 silly get     'x-cache-hits': '1',
+415 silly get     'x-timer': 'S1425904136.590300,VS0,VE0',
+415 silly get     vary: 'Accept',
+415 silly get     'keep-alive': 'timeout=10, max=47',
+415 silly get     connection: 'Keep-Alive' } ]
+416 http fetch 200 https://registry.npmjs.org/gulp-concat/-/gulp-concat-2.5.2.tgz
+417 silly fetchAndShaCheck shasum d644372cdc2b3cdb421a8a941c8d74e21d815f14
+418 silly addNameTag next cb for gulp-imagemin with tag latest
+419 verbose addNamed gulp-imagemin@2.2.1
+420 silly addNamed semver.valid 2.2.1
+421 silly addNamed semver.validRange 2.2.1
+422 verbose addTmpTarball /var/folders/rt/pxq0k23n7cq036bvsz8vnspr0000gn/T/npm-8687-19c3d508/registry.npmjs.org/gulp-concat/-/gulp-concat-2.5.2.tgz not in flight; adding
+423 verbose addTmpTarball already have metadata; skipping unpack for gulp-concat@2.5.2
+424 silly mapToRegistry name gulp-imagemin
+425 silly mapToRegistry using default registry
+426 silly mapToRegistry registry https://registry.npmjs.org/
+427 silly mapToRegistry uri https://registry.npmjs.org/gulp-imagemin
+428 verbose addRemoteTarball https://registry.npmjs.org/gulp-imagemin/-/gulp-imagemin-2.2.1.tgz not in flight; adding
+429 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-imagemin/-/gulp-imagemin-2.2.1.tgz',
+429 verbose addRemoteTarball   '457b188afb8302c2a463a34b7720247645a9ede3' ]
+430 info retry fetch attempt 1 at 15:28:56
+431 info attempt registry request try #1 at 15:28:56
+432 http fetch GET https://registry.npmjs.org/gulp-imagemin/-/gulp-imagemin-2.2.1.tgz
+433 http fetch 200 https://registry.npmjs.org/gulp-util/-/gulp-util-3.0.4.tgz
+434 silly fetchAndShaCheck shasum ec73553090fdb23d88fa02812ad1b61225854881
+435 verbose addTmpTarball /var/folders/rt/pxq0k23n7cq036bvsz8vnspr0000gn/T/npm-8687-19c3d508/registry.npmjs.org/gulp-util/-/gulp-util-3.0.4.tgz not in flight; adding
+436 verbose addTmpTarball already have metadata; skipping unpack for gulp-util@3.0.4
+437 http fetch 200 https://registry.npmjs.org/gulp/-/gulp-3.8.11.tgz
+438 silly fetchAndShaCheck shasum d557e0a7283eb4136491969b0497767972f1d28a
+439 verbose addTmpTarball /var/folders/rt/pxq0k23n7cq036bvsz8vnspr0000gn/T/npm-8687-19c3d508/registry.npmjs.org/gulp/-/gulp-3.8.11.tgz not in flight; adding
+440 verbose addTmpTarball already have metadata; skipping unpack for gulp@3.8.11
+441 silly cache afterAdd gulp@3.8.11
+442 verbose afterAdd /Users/maddocnc/.npm/gulp/3.8.11/package/package.json not in flight; writing
+443 verbose afterAdd /Users/maddocnc/.npm/gulp/3.8.11/package/package.json written
+444 http fetch 200 https://registry.npmjs.org/gulp-handlebars/-/gulp-handlebars-4.0.0.tgz
+445 silly fetchAndShaCheck shasum b5ff46a4197e7ccc9f259a5092a2c29f47953b29
+446 verbose addTmpTarball /var/folders/rt/pxq0k23n7cq036bvsz8vnspr0000gn/T/npm-8687-19c3d508/registry.npmjs.org/gulp-handlebars/-/gulp-handlebars-4.0.0.tgz not in flight; adding
+447 verbose addTmpTarball already have metadata; skipping unpack for gulp-handlebars@4.0.0
+448 silly cache afterAdd gulp-handlebars@4.0.0
+449 verbose afterAdd /Users/maddocnc/.npm/gulp-handlebars/4.0.0/package/package.json not in flight; writing
+450 verbose afterAdd /Users/maddocnc/.npm/gulp-handlebars/4.0.0/package/package.json written
+451 http fetch 200 https://registry.npmjs.org/gulp-ftp/-/gulp-ftp-1.0.3.tgz
+452 silly fetchAndShaCheck shasum 7e43041565ecac3d2762b11adbf0c7b2f1ff589b
+453 verbose addTmpTarball /var/folders/rt/pxq0k23n7cq036bvsz8vnspr0000gn/T/npm-8687-19c3d508/registry.npmjs.org/gulp-ftp/-/gulp-ftp-1.0.3.tgz not in flight; adding
+454 verbose addTmpTarball already have metadata; skipping unpack for gulp-ftp@1.0.3
+455 silly cache afterAdd gulp-ftp@1.0.3
+456 verbose afterAdd /Users/maddocnc/.npm/gulp-ftp/1.0.3/package/package.json not in flight; writing
+457 verbose afterAdd /Users/maddocnc/.npm/gulp-ftp/1.0.3/package/package.json written
+458 http fetch 200 https://registry.npmjs.org/gulp-wrap/-/gulp-wrap-0.11.0.tgz
+459 http fetch 200 https://registry.npmjs.org/gulp-less/-/gulp-less-3.0.1.tgz
+460 silly fetchAndShaCheck shasum 6b49f3f6bf1c9964fc4f0c60c2ee4677ad49b5c1
+461 verbose addTmpTarball /var/folders/rt/pxq0k23n7cq036bvsz8vnspr0000gn/T/npm-8687-19c3d508/registry.npmjs.org/gulp-wrap/-/gulp-wrap-0.11.0.tgz not in flight; adding
+462 verbose addTmpTarball already have metadata; skipping unpack for gulp-wrap@0.11.0
+463 silly fetchAndShaCheck shasum 883217b3d6f6da29f3c8bcd07df47db0e4fc63c1
+464 verbose addTmpTarball /var/folders/rt/pxq0k23n7cq036bvsz8vnspr0000gn/T/npm-8687-19c3d508/registry.npmjs.org/gulp-less/-/gulp-less-3.0.1.tgz not in flight; adding
+465 verbose addTmpTarball already have metadata; skipping unpack for gulp-less@3.0.1
+466 silly cache afterAdd gulp-wrap@0.11.0
+467 verbose afterAdd /Users/maddocnc/.npm/gulp-wrap/0.11.0/package/package.json not in flight; writing
+468 silly cache afterAdd gulp-less@3.0.1
+469 verbose afterAdd /Users/maddocnc/.npm/gulp-less/3.0.1/package/package.json not in flight; writing
+470 verbose afterAdd /Users/maddocnc/.npm/gulp-wrap/0.11.0/package/package.json written
+471 verbose afterAdd /Users/maddocnc/.npm/gulp-less/3.0.1/package/package.json written
+472 http 200 https://registry.npmjs.org/gulp-nunjucks-render
+473 silly get cb [ 200,
+473 silly get   { date: 'Mon, 09 Mar 2015 12:28:56 GMT',
+473 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+473 silly get     etag: '"3WWND67OURC8FOTQZ5O87WWWZ"',
+473 silly get     'content-type': 'application/json',
+473 silly get     'cache-control': 'max-age=60',
+473 silly get     'content-length': '13496',
+473 silly get     'accept-ranges': 'bytes',
+473 silly get     via: '1.1 varnish',
+473 silly get     age: '0',
+473 silly get     'x-served-by': 'cache-ams4127-AMS',
+473 silly get     'x-cache': 'MISS',
+473 silly get     'x-cache-hits': '0',
+473 silly get     'x-timer': 'S1425904136.460654,VS0,VE384',
+473 silly get     vary: 'Accept',
+473 silly get     'keep-alive': 'timeout=10, max=49',
+473 silly get     connection: 'Keep-Alive' } ]
+474 http fetch 200 https://registry.npmjs.org/gulp-imagemin/-/gulp-imagemin-2.2.1.tgz
+475 silly fetchAndShaCheck shasum 457b188afb8302c2a463a34b7720247645a9ede3
+476 silly addNameTag next cb for gulp-nunjucks-render with tag latest
+477 verbose addNamed gulp-nunjucks-render@0.2.1
+478 silly addNamed semver.valid 0.2.1
+479 silly addNamed semver.validRange 0.2.1
+480 silly mapToRegistry name gulp-nunjucks-render
+481 silly mapToRegistry using default registry
+482 silly mapToRegistry registry https://registry.npmjs.org/
+483 silly mapToRegistry uri https://registry.npmjs.org/gulp-nunjucks-render
+484 verbose addRemoteTarball https://registry.npmjs.org/gulp-nunjucks-render/-/gulp-nunjucks-render-0.2.1.tgz not in flight; adding
+485 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-nunjucks-render/-/gulp-nunjucks-render-0.2.1.tgz',
+485 verbose addRemoteTarball   '48dba53d6ee00cf207a6ffe9c6efbd43a79980c0' ]
+486 verbose addTmpTarball /var/folders/rt/pxq0k23n7cq036bvsz8vnspr0000gn/T/npm-8687-19c3d508/registry.npmjs.org/gulp-imagemin/-/gulp-imagemin-2.2.1.tgz not in flight; adding
+487 verbose addTmpTarball already have metadata; skipping unpack for gulp-imagemin@2.2.1
+488 info retry fetch attempt 1 at 15:28:56
+489 info attempt registry request try #1 at 15:28:56
+490 http fetch GET https://registry.npmjs.org/gulp-nunjucks-render/-/gulp-nunjucks-render-0.2.1.tgz
+491 http 200 https://registry.npmjs.org/browser-sync
+492 silly get cb [ 200,
+492 silly get   { date: 'Mon, 09 Mar 2015 12:28:56 GMT',
+492 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+492 silly get     etag: '"4X9LNLI1E1FGLJE9SQLVKK2K3"',
+492 silly get     'content-type': 'application/json',
+492 silly get     'cache-control': 'max-age=60',
+492 silly get     'content-length': '263747',
+492 silly get     'accept-ranges': 'bytes',
+492 silly get     via: '1.1 varnish',
+492 silly get     age: '44',
+492 silly get     'x-served-by': 'cache-ams4131-AMS',
+492 silly get     'x-cache': 'HIT',
+492 silly get     'x-cache-hits': '1',
+492 silly get     'x-timer': 'S1425904136.634795,VS0,VE1',
+492 silly get     vary: 'Accept',
+492 silly get     'keep-alive': 'timeout=10, max=48',
+492 silly get     connection: 'Keep-Alive' } ]
+493 silly cache afterAdd gulp-imagemin@2.2.1
+494 verbose afterAdd /Users/maddocnc/.npm/gulp-imagemin/2.2.1/package/package.json not in flight; writing
+495 silly addNameTag next cb for browser-sync with tag latest
+496 verbose addNamed browser-sync@2.2.3
+497 silly addNamed semver.valid 2.2.3
+498 silly addNamed semver.validRange 2.2.3
+499 silly mapToRegistry name browser-sync
+500 silly mapToRegistry using default registry
+501 silly mapToRegistry registry https://registry.npmjs.org/
+502 silly mapToRegistry uri https://registry.npmjs.org/browser-sync
+503 verbose addRemoteTarball https://registry.npmjs.org/browser-sync/-/browser-sync-2.2.3.tgz not in flight; adding
+504 verbose addRemoteTarball [ 'https://registry.npmjs.org/browser-sync/-/browser-sync-2.2.3.tgz',
+504 verbose addRemoteTarball   '5361364c5197451eabb4f45145484b7e116a06b2' ]
+505 verbose afterAdd /Users/maddocnc/.npm/gulp-imagemin/2.2.1/package/package.json written
+506 info retry fetch attempt 1 at 15:28:56
+507 info attempt registry request try #1 at 15:28:56
+508 http fetch GET https://registry.npmjs.org/browser-sync/-/browser-sync-2.2.3.tgz
+509 http fetch 200 https://registry.npmjs.org/gulp-nunjucks-render/-/gulp-nunjucks-render-0.2.1.tgz
+510 silly fetchAndShaCheck shasum 48dba53d6ee00cf207a6ffe9c6efbd43a79980c0
+511 verbose addTmpTarball /var/folders/rt/pxq0k23n7cq036bvsz8vnspr0000gn/T/npm-8687-19c3d508/registry.npmjs.org/gulp-nunjucks-render/-/gulp-nunjucks-render-0.2.1.tgz not in flight; adding
+512 verbose addTmpTarball already have metadata; skipping unpack for gulp-nunjucks-render@0.2.1
+513 silly cache afterAdd gulp-nunjucks-render@0.2.1
+514 verbose afterAdd /Users/maddocnc/.npm/gulp-nunjucks-render/0.2.1/package/package.json not in flight; writing
+515 verbose afterAdd /Users/maddocnc/.npm/gulp-nunjucks-render/0.2.1/package/package.json written
+516 http fetch 200 https://registry.npmjs.org/browser-sync/-/browser-sync-2.2.3.tgz
+517 silly fetchAndShaCheck shasum 5361364c5197451eabb4f45145484b7e116a06b2
+518 verbose addTmpTarball /var/folders/rt/pxq0k23n7cq036bvsz8vnspr0000gn/T/npm-8687-19c3d508/registry.npmjs.org/browser-sync/-/browser-sync-2.2.3.tgz not in flight; adding
+519 verbose addTmpTarball already have metadata; skipping unpack for browser-sync@2.2.3
+520 silly cache afterAdd browser-sync@2.2.3
+521 verbose afterAdd /Users/maddocnc/.npm/browser-sync/2.2.3/package/package.json not in flight; writing
+522 verbose afterAdd /Users/maddocnc/.npm/browser-sync/2.2.3/package/package.json written
+523 verbose stack Error: EACCES, mkdir '/Users/maddocnc/.npm/gulp-concat/2.5.2'
+524 verbose cwd /Users/maddocnc/PhpstormProjects/bx_gulp_strap
+525 error Darwin 14.3.0
+526 error argv "node" "/usr/local/bin/npm" "i"
+527 error node v0.10.32
+528 error npm  v2.1.7
+529 error path /Users/maddocnc/.npm/gulp-concat/2.5.2
+530 error code EACCES
+531 error errno 3
+532 error Error: EACCES, mkdir '/Users/maddocnc/.npm/gulp-concat/2.5.2'
+532 error  { [Error: EACCES, mkdir '/Users/maddocnc/.npm/gulp-concat/2.5.2']
+532 error   errno: 3,
+532 error   code: 'EACCES',
+532 error   path: '/Users/maddocnc/.npm/gulp-concat/2.5.2',
+532 error   parent: 'Gulpstrap' }
+533 error Please try running this command again as root/Administrator.
+534 verbose exit [ 3, true ]
