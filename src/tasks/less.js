@@ -5,6 +5,7 @@ var gulp = require(config.nm + 'gulp');
 var gutil = require(config.nm + 'gulp-util');
 var concat = require(config.nm + 'gulp-concat');
 var less = require(config.nm + 'gulp-less');
+var autoprefixer = require(config.nm+'gulp-autoprefixer');
 
 if (config.enable_browser_sync) {
     var browserSync = require('browser-sync');
@@ -37,6 +38,10 @@ gulp.task('less', function() {
         paths: paths,
         compress: true
     }).on('error', gutil.log))
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
     .pipe(gulp.dest(output_path));
 });
 
